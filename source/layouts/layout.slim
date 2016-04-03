@@ -1,0 +1,17 @@
+doctype html
+html
+  head
+    meta charset="utf-8"
+    meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"
+    title = "La Plage - Restaurant - Ile de Ré"
+    meta name="keywords" content="restaurant, ile de ré, la plage"
+
+    = stylesheet_link_tag "all"
+
+  body class="= page_classes"
+
+    = javascript_include_tag  "all", async: true
+
+    == partial "pages/navbar"
+    == yield
+    == partial "pages/footer"

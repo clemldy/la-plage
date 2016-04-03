@@ -1,0 +1,93 @@
+.welcome-bg
+  .gradient
+  .welcome-text
+    = image_tag "logo_laplage_02.png", class: "logo-home"
+
+    .text-home
+      h2 Le Restaurant La Plage ouvre ses portes dès le mois de Mai
+      h3 On vous attend nombreux!
+
+    .row
+      .link-home
+        = link_to "Réserver un table", "#contact", class: "btn btn-custom"
+    .row
+      .link-home
+        = link_to "Découvrir", "#concept", class: "btn btn-custom"
+
+.concept#concept
+  .container-fluid
+    .row
+      .text-center.padded
+        h1 = "CONCEPT"
+    .row.text-center
+      .col-xs-12.col-md-8.img-restau
+      .col-xs-12.col-md-4
+        h3 = "Restaurant"
+        br
+        p blablabla
+        p blablablabla
+        p blablablablabla
+    .row.text-center
+      .col-xs-12.col-md-4
+        h3#bar = "Bar"
+        br
+        p blablabla
+        p blablablabla
+        p blablablablabla
+      .col-xs-12.col-md-8.img-bar
+    .row.text-center
+      .col-xs-12.col-md-8.img-event
+      .col-xs-12.col-md-4
+        h3#event = "Musique/Evenements"
+        br
+        p blablabla
+        p blablablabla
+        p blablablablabla
+.menu
+  .container-fluid
+    .row
+      .text-center.padded
+        h1#spe = "SPECIALITES"
+    .row.text-center
+      .col-xs-12.col-md-4
+        = image_tag "moule.jpg", class: "avatar avatar-bordered"
+
+        h3 = "Moules Marinières"
+        br
+        p blablabla
+        p blablablabla
+        p blablablablabla
+      .col-xs-12.col-md-4
+        = image_tag "grillade.jpg", class: "avatar avatar-bordered"
+
+        h3 = "Grillades"
+        br
+        p blablabla
+        p blablablabla
+        p blablablablabla
+      .col-xs-12.col-md-4
+        = image_tag "poisson.jpg", class: "avatar avatar-bordered"
+
+        h3 = "Poissons"
+        br
+        p blablabla
+        p blablablabla
+        p blablablablabla
+
+.contact
+  .container
+    .row
+      .text-center.padded
+        h2#contact = "CONTACT"
+    .row
+      .col-xs-12.col-md-4
+        h3 = "Réservation"
+        br
+        h4 = "Tel : 05 11 22 33 44"
+        br
+        h5 = "La Plage Restaurant"
+        h5 = "17940, Rivedoux-Plage"
+      .col-xs-12.col-md-8
+        h3.text-center = "Directions"
+        #map
+          = image_tag "https://maps.googleapis.com/maps/api/staticmap?center=46.1620337,-1.257411&zoom=12&size=800x400&markers=size:mid%7Ccolor:0xff0000%7Clabel:1%7C46.162030,+-1.255217", class: "img-responsive"

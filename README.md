@@ -1,1 +1,3 @@
-# la-plage
+== README
+
+La Plage

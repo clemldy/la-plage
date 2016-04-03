@@ -1,0 +1,66 @@
+.screen-bg {
+   height          : 200px;
+   background-size : cover;
+   position        : absolute;
+   top             : 0;
+   bottom          : 0;
+   left            : 0;
+   right           : 0;
+   z-index         : 0;
+}
+
+.card-ref {
+  background-color : white;
+  border           : 1px solid #f1f1f1;
+  border-radius    : 5px;
+  padding          : 0px 10px;
+  margin           : 5px 0px;
+  &:hover {
+    box-shadow     : 0 2px 5px 0 rgba(0,0,0,.26);
+  }
+}
+
+.card-airgabion {
+  background       : url('../images/airgabion-screen.jpg') no-repeat center center;
+  position         : relative;
+  padding          : 50px;
+  background-size  : cover;
+  height           : 200px;
+  margin           : 20px auto;
+ }
+
+.card-monea {
+  background       : url('../images/monea-screen.jpg') no-repeat center center;
+  position         : relative;
+  padding          : 50px;
+  background-size  : cover;
+  height           : 200px;
+  margin           : 20px auto;
+  }
+
+.card-nomad {
+  background       : url('../images/nomad-screen.jpg') no-repeat center center;
+  position         : relative;
+  padding          : 50px;
+  background-size  : cover;
+  height           : 200px;
+  margin           : 20px auto;
+   }
+
+.card-lapage {
+ background        : url('../images/laplage-screen.jpg') no-repeat center center;
+ position          : relative;
+ padding           : 50px;
+ background-size   : cover;
+ height            : 245px;
+ margin            : 20px auto;
+  }
+
+.card-hem {
+ background        : url('../images/hem-screen.jpg') no-repeat center center;
+ position          : relative;
+ padding           : 50px;
+ background-size   : cover;
+ height            : 245px;
+ margin            : 20px auto;
+  }
